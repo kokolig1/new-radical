@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090909" />
+    <meta name="description" content="New Radical is the daily sports decision game. Make the call, challenge your squad, build your Decision DNA, and earn the season." />
+    <title>New Radical — Think You See the Game?</title>
+    <link rel="preload" as="image" href="assets/hero-athlete-v2.webp" />
+    <link rel="preload" as="image" href="assets/new-radical-logo-transparent.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="New Radical home">
+        <img src="assets/new-radical-logo-transparent.png" alt="New Radical" width="1020" height="710" />
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#how">How it works</a>
+        <a href="#arena">Compete</a>
+        <a href="#rewards">Earn the season</a>
+        <a class="nav-cta" href="#join">Play Season 01</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <img class="hero-athlete" data-hero-athlete src="assets/hero-athlete-v2.webp" alt="A focused young baseball hitter under stadium lights" width="1672" height="941" />
+        <div class="hero-shade" aria-hidden="true"></div>
+
+        <div class="hero-layout page-shell">
+          <div class="hero-copy reveal">
+            <p class="eyebrow signal">THE DAILY GAME IQ CHALLENGE</p>
+            <h1>THINK YOU SEE<br />THE GAME?<br /><em>PROVE IT.</em></h1>
+            <p class="hero-deck"><strong>One moment. One call. Every day.</strong> Watch a pressure play unfold, lock your decision, then see what the coach saw. Build your Game IQ, beat your friends, and finish the season to unlock a shirt reserved for finishers.</p>
+            <div class="sport-block" data-sport-picker>
+              <div class="sport-picker-heading">
+                <div><span class="sport-label">PERSONALIZE YOUR CHALLENGE</span><strong>PICK YOUR SPORT</strong></div>
+                <span class="sport-tap">TAP ONE ↓</span>
+              </div>
+              <p>Pick your sport. The challenge below changes instantly.</p>
+              <div class="sports" role="group" aria-label="Choose your sport">
+                <button type="button" data-sport="baseball" aria-pressed="true"><span>Baseball</span><small>Selected</small></button>
+                <button type="button" data-sport="basketball" aria-pressed="false"><span>Basketball</span><small>Pick</small></button>
+                <button type="button" data-sport="soccer" aria-pressed="false"><span>Soccer</span><small>Pick</small></button>
+                <button type="button" data-sport="football" aria-pressed="false"><span>Football</span><small>Pick</small></button>
+                <button type="button" data-sport="volleyball" aria-pressed="false"><span>Volleyball</span><small>Pick</small></button>
+                <button type="button" data-sport="jiu-jitsu" aria-pressed="false"><span>Jiu-Jitsu</span><small>Pick</small></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="season-tease">
+          <div class="page-shell season-tease-inner">
+            <span>SEASON 01 · BUILT UNDER PRESSURE</span>
+            <p>Finish the season. Unlock the finisher shirt + your physical Season Mark.</p>
+            <a href="#rewards">See what you earn →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="daily section-black" id="daily-call">
+        <div class="page-shell daily-grid">
+          <div class="daily-copy reveal">
+            <p class="eyebrow signal" data-daily-eyebrow>TODAY’S LIVE READ · BASEBALL</p>
+            <h2>WATCH THE PLAY.<br /><em>MAKE THE CALL.</em></h2>
+            <p>The moment moves. Read the field, track the pressure, and lock your decision before the coach reveals what the play demanded.</p>
+          </div>
+
+          <div class="call-card reveal" data-call-card>
+            <div class="card-top"><span data-card-sport>BASEBALL · HITTER</span><span>PLAY 043</span></div>
+            <div class="play-sim" data-simulation data-sport-view="baseball">
+              <div class="sim-score">
+                <div><span data-score-label="0">INNING</span><strong data-score-value="0">B8</strong></div>
+                <div><span data-score-label="1">OUTS</span><strong data-score-value="1">2</strong></div>
+                <div><span data-score-label="2">SCORE</span><strong data-score-value="2">3–4</strong></div>
+                <div class="sim-live"><i></i> LIVE READ</div>
+              </div>
+
+              <div class="sim-field" data-sim-field>
+                <svg viewBox="0 0 640 420" role="img" aria-label="Top-down baseball play simulation with runners on first and third">
+                  <path class="outfield-line" d="M72 337 Q320 36 568 337" />
+                  <path class="foul-line" d="M320 370 L72 92 M320 370 L568 92" />
+                  <path class="infield-dirt" d="M320 112 L476 242 L320 372 L164 242 Z" />
+                  <path class="diamond-line" d="M320 125 L468 244 L320 364 L172 244 Z" />
+                  <path class="lead-track" d="M462 242 Q430 219 402 191" />
+                  <path class="steal-track" d="M402 191 Q361 151 324 129" />
+
+                  <g class="base base-two"><rect x="311" y="116" width="18" height="18" transform="rotate(45 320 125)" /></g>
+                  <g class="base base-one"><rect x="459" y="235" width="18" height="18" transform="rotate(45 468 244)" /></g>
+                  <g class="base base-three"><rect x="163" y="235" width="18" height="18" transform="rotate(45 172 244)" /></g>
+                  <g class="base base-home"><path d="M310 358 L330 358 L335 368 L320 379 L305 368 Z" /></g>
+
+                  <g class="fielder"><circle cx="320" cy="238" r="10" /><text x="320" y="218">P</text></g>
+                  <g class="fielder"><circle cx="512" cy="222" r="8" /></g>
+                  <g class="fielder"><circle cx="404" cy="151" r="8" /></g>
+                  <g class="fielder"><circle cx="246" cy="151" r="8" /></g>
+                  <g class="fielder"><circle cx="128" cy="222" r="8" /></g>
+                  <g class="fielder faint"><circle cx="320" cy="67" r="8" /><circle cx="162" cy="96" r="8" /><circle cx="478" cy="96" r="8" /></g>
+
+                  <g class="runner runner-three"><circle cx="164" cy="249" r="14" /><text x="164" y="253">R3</text></g>
+                  <g class="runner runner-one"><circle cx="473" cy="249" r="15" /><circle class="runner-pulse" cx="473" cy="249" r="21" /><text x="473" y="253">YOU</text></g>
+                  <g class="batter"><circle cx="338" cy="361" r="10" /><text x="358" y="366">BATTER</text></g>
+                  <circle class="sim-ball" cx="320" cy="252" r="5" />
+                </svg>
+
+                <div class="field-readout">
+                  <span data-sim-phase>PITCHER SET</span>
+                  <strong data-sim-clock>03.0</strong>
+                </div>
+                <div class="decision-flash" data-sim-flash>READ THE FIELD</div>
+              </div>
+
+              <div class="sim-controls">
+                <div class="sim-progress"><i></i></div>
+                <span data-sim-status>Runner at first · pitcher never checks</span>
+                <button type="button" data-sim-start aria-label="Replay play simulation">↻ REPLAY</button>
+              </div>
+            </div>
+
+            <div class="situation-wrap">
+              <span>THE DECISION</span>
+              <p class="situation" data-situation>Bottom of the eighth. Down one. Two outs. You’re the runner at first. The pitcher never checks you. What’s your call?</p>
+            </div>
+            <div class="answers" role="group" aria-label="Choose your call">
+              <button type="button" data-answer="A"><b>A</b><span data-answer-text="A">Hold. Your run doesn’t matter.</span></button>
+              <button type="button" data-answer="B"><b>B</b><span data-answer-text="B">Break early. Force the defense to decide.</span></button>
+              <button type="button" data-answer="C"><b>C</b><span data-answer-text="C">Wait for contact. Run on the swing.</span></button>
+            </div>
+            <div class="answer-result" hidden aria-live="polite">
+              <div><span>THE COACH’S READ</span><strong data-result-title>YOU SAW IT.</strong></div>
+              <div class="correct-call"><span>RIGHT ANSWER</span><b data-correct-letter>B</b><strong data-correct-text>Break early. Force the defense to decide.</strong></div>
+              <p data-coach-copy>Creating movement forces the defense to choose and can expose the hesitation. Pressure is part of the play.</p>
+              <div class="split"><span>A <b data-split="A">14%</b></span><span>B <b data-split="B">68%</b></span><span>C <b data-split="C">18%</b></span></div>
+              <a class="button button-signal" href="#join">Build your Decision DNA <span>→</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-strip section-light" id="how">
+        <div class="page-shell">
+          <div class="section-intro reveal">
+            <p class="eyebrow">A GAME YOU PLAY IN MINUTES. AN EDGE YOU KEEP.</p>
+            <h2>ONE CALL A DAY.<br /><em>EVERY CALL COUNTS.</em></h2>
+          </div>
+          <div class="steps reveal">
+            <article><span>01</span><h3>MAKE THE CALL</h3><p>Face one real pressure moment from your sport and position.</p></article>
+            <article><span>02</span><h3>SEE WHO SAW IT</h3><p>Get the coach’s read, the crowd split, and your squad’s picks.</p></article>
+            <article><span>03</span><h3>BUILD YOUR GAME</h3><p>Every answer reveals your instincts and what to train next.</p></article>
+            <article><span>04</span><h3>EARN THE SEASON</h3><p>Stack plays, climb the Arena, and unlock proof you were there.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature arena section-light" id="arena">
+        <div class="page-shell feature-grid">
+          <div class="feature-copy reveal">
+            <p class="eyebrow signal">THE ARENA</p>
+            <h2>DIFFERENT SPORTS.<br /><em>ONE SQUAD.</em></h2>
+            <p>Bring your people in. Your baseball calls, their soccer reads, somebody else’s jiu-jitsu decisions—all feed one weekly squad board.</p>
+            <div class="proof-list">
+              <div><b>COMPETE FAIR</b><span>Squad, division, and everyone boards.</span></div>
+              <div><b>MAKE IT SOCIAL</b><span>See who played, who saw it, and who needs one point.</span></div>
+              <div><b>START FRESH</b><span>Weekly boards reset. The proof you earned never does.</span></div>
+            </div>
+            <a class="text-link dark-link" href="#join">Create your squad →</a>
+          </div>
+          <div class="screen-wrap reveal">
+            <span class="screen-tag">YOU’RE 6 POINTS OFF THE TOP</span>
+            <div class="phone"><img src="assets/arena.png" alt="New Radical Arena weekly squad leaderboard" width="780" height="1688" loading="lazy" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature dna section-black" id="dna">
+        <div class="page-shell feature-grid reverse">
+          <div class="screen-wrap dark reveal">
+            <span class="screen-tag">YOUR DECISION DNA</span>
+            <div class="phone phone-tall"><img src="assets/progress.png" alt="New Radical progress screen showing Decision DNA and season progress" width="780" height="3036" loading="lazy" /></div>
+          </div>
+          <div class="feature-copy reveal">
+            <p class="eyebrow signal">YOUR PLAYER PROFILE</p>
+            <h2>EVERY CALL LEAVES<br /><em>A FINGERPRINT.</em></h2>
+            <p>See the athlete behind your answers. New Radical maps how you handle pressure across aggression, discipline, vision, and patience.</p>
+            <div class="stat-row">
+              <div><strong>75</strong><span>DISCIPLINE</span></div><div><strong>69</strong><span>VISION</span></div><div><strong>65</strong><span>PATIENCE</span></div>
+            </div>
+            <p class="quote" data-dna-quote>“You don’t get talked out of your game.”</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature clinic section-black" id="clinic">
+        <div class="page-shell feature-grid">
+          <div class="feature-copy reveal">
+            <p class="eyebrow signal" data-clinic-eyebrow>THE BASEBALL CLINIC</p>
+            <h2>THE GAME FINDS THE HOLE.<br /><em>CLINIC HELPS CLOSE IT.</em></h2>
+            <p data-clinic-intro>Missed calls become your next lesson. Short coach-led sessions target the exact decisions your baseball game keeps getting wrong.</p>
+            <div class="clinic-card"><span>YOUR NEXT EDGE</span><strong data-clinic-edge>AGGRESSION</strong><p data-clinic-copy>You’ve missed 5 reads the moment wanted aggression for.</p></div>
+            <a class="text-link" href="#join">Get your first read →</a>
+          </div>
+          <div class="screen-wrap dark reveal">
+            <span class="screen-tag">BUILT FROM YOUR MISSES</span>
+            <div class="phone"><img src="assets/clinic.png" alt="New Radical Clinic personalized coaching recommendations" width="780" height="1688" loading="lazy" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rewards section-light" id="rewards">
+        <div class="page-shell">
+          <div class="rewards-head reveal">
+            <div>
+              <p class="eyebrow signal">SEASON 01 · BUILT UNDER PRESSURE</p>
+              <h2>PLAY THE SEASON.<br /><em>EARN THE VERSION<br />OTHERS CAN’T BUY.</em></h2>
+            </div>
+            <p>The main New Radical collection is open to everyone. The details that prove what you did are not. They’re unlocked through play.</p>
+          </div>
+
+          <div class="lookbook-showcase reveal">
+            <figure class="lookbook-card">
+              <div class="lookbook-viewport">
+                <img src="assets/new-radical-streetwear-lookbook-v1.webp" alt="New Radical streetwear lookbook showing ten shirt colorways and their front and back statements" width="1536" height="1024" loading="lazy" />
+              </div>
+              <figcaption>
+                <div><span>THE NEW RADICAL LINE</span><strong>TEN STATEMENTS. ONE STANDARD.</strong></div>
+                <p>The core line is open to everyone. Season finishes unlock private Marks, color details, and squad treatments that prove what you did.</p>
+                <small aria-hidden="true">SWIPE TO EXPLORE</small>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="reward-grid reveal">
+            <article><span>OPEN</span><strong>CORE CAPSULE</strong><p>Shop the season’s essential pieces and carry the idea from day one.</p><small>AVAILABLE TO EVERYONE</small></article>
+            <article class="active"><span>FINISH 8 WEEKS</span><strong>EXCLUSIVE FINISHER SHIRT</strong><p>Complete the season to access a shirt reserved for athletes who finished it.</p><small>EARNED ACCESS · NEVER DISCOUNTED</small></article>
+            <article><span>MAKE 30 PLAYS</span><strong>PHYSICAL SEASON MARK</strong><p>Your woven Season 01 mark is included with a qualifying piece.</p><small>PROOF YOU SHOWED UP</small></article>
+            <article><span>WIN YOUR BOARD</span><strong>SQUAD DETAIL</strong><p>Division winners unlock a custom squad name or number treatment.</p><small>ONLY YOUR SQUAD CAN WEAR IT</small></article>
+          </div>
+
+          <div class="second-skin reveal">
+            <div><p class="eyebrow signal">THE FIRST DROP · SECOND SKIN</p><h3>NOT MERCH.<br />A RECORD OF THE WORK.</h3><p>Every season creates a wearable chapter. Buy the core. Earn the rare details. Keep the proof after the leaderboard resets.</p></div>
+            <a class="text-link dark-link" href="#join">Enter Season 01 →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="join section-black" id="join">
+        <div class="page-shell join-grid">
+          <div class="join-copy reveal">
+            <p class="eyebrow signal">SEASON 01 IS OPEN</p>
+            <h2>CLAIM YOUR<br /><em>PLAYER NAME.</em></h2>
+            <p>Choose your sport. Make your first call. Bring your squad in before the first board closes.</p>
+            <div class="join-proof"><span>✓ One daily challenge</span><span>✓ Free to start</span><span>✓ All six sports included</span></div>
+          </div>
+          <form class="join-form reveal" data-join-form>
+            <label><span>PLAYER NAME</span><input type="text" name="playerName" autocomplete="nickname" placeholder="What should the Arena call you?" required /></label>
+            <label><span>YOUR SPORT</span><select name="sport" required><option value="">Choose your sport</option><option>Baseball</option><option>Basketball</option><option>Soccer</option><option>Football</option><option>Volleyball</option><option>Jiu-Jitsu</option></select></label>
+            <label><span>EMAIL</span><input type="email" name="email" autocomplete="email" placeholder="you@example.com" required /></label>
+            <button class="button button-signal button-full" type="submit">Enter Season 01 <span>→</span></button>
+            <p class="form-note">No spam. Just your access link and the first season drop.</p>
+            <div class="form-success" hidden><strong>YOU’RE IN.</strong><p>Your player name is reserved for Season 01.</p></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="page-shell footer-grid">
+        <a class="brand footer-brand" href="#top"><img src="assets/new-radical-logo-transparent.png" alt="New Radical" width="1020" height="710" /></a>
+        <p>DIFFERENT SPORTS. SAME HUNGER.</p>
+        <p>© <span data-year></span> NEW RADICAL</p>
+      </div>
+    </footer>
+  </body>
+</html>
